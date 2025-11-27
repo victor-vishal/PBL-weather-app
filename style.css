@@ -37,7 +37,7 @@ body::before{
 }
 
 .main-container {
-    border: solid;
+    /* border: solid; */
     width: 300px;
     height: 496px;
     z-index: 1;
@@ -69,9 +69,8 @@ body::before{
     padding-right: 45px;    
 }
 
-.city-input::focus{
+.city-input:focus{
     border: 3px solid rgb(0, 0, 0, 0.15);
-
 }
 
 .city-input::placeholder{
